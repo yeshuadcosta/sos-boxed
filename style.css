@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Manrope&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: #94C973;
+  max-width: fit-content;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Caprasimo", cursive;
+  text-align: center;
+  font-size: 10vh;
+  color: #2F5233;
+
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#panel,
+#grid {
+  box-sizing: content-box;
+  width: 500px;
+
+  padding: 10px;
+  border: 2px solid black;
+  margin: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  overflow: hidden;
+  background-color: #76B947;
+}
+
+#grid {
+  height: 500px;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+#panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  height: min-content;
+  margin-top: 5px;
+  border-radius: 0rem 0rem 1rem 1rem;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.panelItem {
+  font-family: "Manrope", sans-serif;
+  font-size: larger;
+  background-color: #B1D8B7;
+  border-radius: 0.5rem;
+}
+
+.box {
+  background-color: white;
+  border: 0.5px solid black;
+
+  font-family: "Manrope", sans-serif;
+  font-size: 2em;
+  font-weight: 900;
+  text-align: center;
+}
+
+.icon {
+  height: 1.5em;
+}
+
+.box:hover {
+  background-color: #94C973;
+}
+
+footer {
+  font-family: "Manrope", sans-serif;
+  font-size: larger;
+  font-weight: 600;
+  text-align: center;
+
+  border-radius: 0.5rem;
+  box-sizing: content-box;
+  margin-top: 5px;
+  padding-bottom: 30px;
+
+  background-color: #B1D8B7;
+}
+
+/* 
+ * COLOR PALETE LINKS
+ * https://www.canva.com/colors/color-palettes/green-blaze/
+*/
